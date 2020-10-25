@@ -1,6 +1,6 @@
 
 .menu{
-	height: 50px;
+	height: 60px;
 	display: flex;
 	position: fixed;
 	top: 0;
@@ -10,7 +10,7 @@
 }
 
 .sub_menu{
-	line-height: 35px;
+	line-height: 40px;
 }
 
 .background{
@@ -22,13 +22,12 @@
 	color: #000;
 }
 .nav .nav-item:hover a{
-	font-size: 20px;
-	color: red;
+	color: #48cab2;
 	transition: all 0.3s;
 }
 
 .content{
-	height: 2000px;
+	height: 1300px;
 }
 
 .title{
@@ -70,4 +69,55 @@
 
 #cost_down{
 	color: #e12c43;
+}
+
+
+footer{
+	font-size: 19px;
+	height: 640px;
+	background-color: #EFEFEFEF	;
+}
+
+.contact{
+	height: 250px;
+	display: flex;
+	align-items: center;
+}
+
+.sub_contact{
+	line-height: 30px;
+	list-style: none;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+}
+
+.sub_contact ul li {
+	list-style-type: none;
+}
+
+.sub_contact a {
+	text-decoration: none;
+	color: #888888;
+}
+
+.sub_contact a:hover {
+	color: #48cab2;
+	transform: all 2s;
+}
+
+.btn-contact{
+	margin-left: 10px;
+}
+
+input[type="email"]{
+	padding-left: 10px;
+	font-size: 20px;
+	height: 40px;
+	width: 350px;
+}
+
+#btn{
+	margin-top: -5px;
+	margin-left: -48px;
 }
